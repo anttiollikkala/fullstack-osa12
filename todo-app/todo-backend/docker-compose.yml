@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: 7b1595a555545d5fb194d00cc919b2c95ee60c3ee1afebaf2be7352cf151ce8f
+    build: .
+    ports:
+      - 3000:3000
